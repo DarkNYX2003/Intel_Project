@@ -19,9 +19,7 @@ const EducationalServiceList = ({ serviceType }) => {
                 }
 
                 const response = await fetch(endpoint, {
-                    headers: {
-                        'Authorization': `Token ${token}`,
-                    },
+
                 });
 
                 if (!response.ok) {

@@ -255,12 +255,6 @@ def fetch_place_details(request):
     return Response(details, status=status.HTTP_200_OK)
 
 
-import pandas as pd
-import requests
-from django.conf import settings
-from rest_framework.decorators import api_view
-from rest_framework.response import Response
-from rest_framework import status
 
 @api_view(['POST'])
 def get_doctors(request):
@@ -565,7 +559,7 @@ class SchoolListView(generics.ListAPIView):
     serializer_class = EducationalServiceSerializer
     
     def get_queryset(self):
-        return EducationalService.objects.filter(service_type='school', user=self.request.user)
+        return EducationalService.objects.filter(service_type='school')
 
 
 class TutorListView(generics.ListAPIView):
@@ -573,7 +567,7 @@ class TutorListView(generics.ListAPIView):
    
 
     def get_queryset(self):
-        return EducationalService.objects.filter(service_type='tutor', user=self.request.user)
+        return EducationalService.objects.filter(service_type='tutor')
 
 
 class EducationalAidListView(generics.ListAPIView):
@@ -581,7 +575,7 @@ class EducationalAidListView(generics.ListAPIView):
     
 
     def get_queryset(self):
-        return EducationalService.objects.filter(service_type='educational aid', user=self.request.user)
+        return EducationalService.objects.filter(service_type='educational aid')
 
 @method_decorator(csrf_exempt, name='dispatch')
 class SchoolListFromDB(APIView):
