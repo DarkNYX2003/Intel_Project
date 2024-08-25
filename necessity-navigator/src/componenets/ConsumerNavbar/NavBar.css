@@ -1,10 +1,14 @@
 .navbar {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    position: sticky;
-    display: flex;
+    position: fixed;
+    left: 2.5%;
 
+    max-height: 10vh;
+
+    max-width: 95%;
+
+    display: flex;
+    background-color: #acb6ea;
+    border-radius: 2em;
     justify-content: space-between;
 
 }
@@ -15,7 +19,7 @@
     padding: 0;
     margin: 1%;
     font-size: 24px;
-    color: #390e3b;
+    color: #6295d7;
 
 }
 
@@ -58,7 +62,7 @@
 .navbar button {
     padding: 5px 10px;
 
-    background-color: #aeb7c0;
+    background-color: #7aafe3;
 
     color: rgb(11, 11, 11);
 
@@ -71,6 +75,6 @@
 }
 
 .navbar button:hover {
-    background-color: #1b3b5d;
+    background-color: #d75050;
 
 }

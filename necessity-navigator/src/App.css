@@ -1,8 +1,8 @@
 .navigation {
-  padding-top: 0%;
-  width: 100vw;
+  padding-top: 1%;
+  width: 100%;
   min-height: 7vh;
-  background: rgb(103, 20, 163);
+  background: rgb(252, 251, 253);
 
   display: flex;
 }

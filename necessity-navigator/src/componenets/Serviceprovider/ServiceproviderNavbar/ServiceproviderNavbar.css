@@ -54,9 +54,9 @@
 }
 
 .navbar button {
-    padding: 5px 10px;
+    padding: 7px 12px;
 
-    background-color: #aeb7c0;
+    background-color: #8fb2d6;
 
     color: rgb(11, 11, 11);
 
@@ -68,6 +68,6 @@
 }
 
 .navbar button:hover {
-    background-color: #1b3b5d;
+    background-color: #dc7569;
 
 }

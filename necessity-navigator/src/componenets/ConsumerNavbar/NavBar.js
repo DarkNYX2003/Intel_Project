@@ -34,6 +34,9 @@ const ConsumerNavbar = () => {
                     <li><Link to={"/home"}>Home</Link></li>
                     <li onClick={handleLocationClick}>Location</li>
                     <li><Link to={"/home/healthcare"}>Healthcare</Link></li>
+                    <li><Link to={"/home/education"}>Education</Link></li>
+                    <li><Link to={"/home/transport"}>Transport</Link></li>
+                    <li><Link to={"/home/banking"}>Banking</Link></li>
                     <li><button onClick={handleLogoutClick}>Logout</button></li>
                 </ul>
             ) : (

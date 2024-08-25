@@ -1,20 +1,24 @@
 .hero {
     position: relative;
     text-align: center;
-    color: rgb(71, 66, 66);
+    color: rgb(18, 17, 17);
     margin: 0;
 
 }
 
 .hero img {
     width: 100%;
-    height: auto;
-
-    opacity: 0.6;
+    height: 500px;
+    opacity: 0.4;
+    filter: hue-rotate(190deg) saturate(1.2) brightness(1.1);
+    mask-image: radial-gradient(circle, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 100%);
+    mask-size: cover;
 }
+
 
 .heroText {
     position: absolute;
+    font-family: cursive;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -36,7 +40,7 @@
 }
 
 .cta {
-    background-color: #0a3a42;
+    background-color: #eca2ba;
     color: white;
     padding: 0.75em 1.5em;
     border: none;
@@ -46,5 +50,5 @@
 }
 
 .cta:hover {
-    background-color: #16b6cb;
+    background-color: #d4698e;
 }

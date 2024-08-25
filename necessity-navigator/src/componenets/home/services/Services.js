@@ -11,8 +11,8 @@ const Services = () => {
                 <Link to="/home/healthcare" className="serviceLink">
                     <div className="serviceContainer">
                         <Service
-                            icon="https://img.freepik.com/premium-vector/medical-minimal-thin-line-icons-set_36298-256.jpg"
-                            title="Healthcare"
+                            icon="https://cdn.dribbble.com/users/1081864/screenshots/3344868/healthcare_800x600_newcolors.gif"
+                            title="Health Care"
                             description="Find the best healthcare providers and services near you."
                             className="healthcareIcon"
                         />
@@ -21,8 +21,9 @@ const Services = () => {
                 <Link to="/home/education" className='serviceLink'>
                     <div className="serviceContainer">
                         <Service
-                            icon="https://static.vecteezy.com/system/resources/previews/002/220/362/non_2x/education-minimal-thin-line-icons-set-vector.jpg"
+                            icon="https://cdn.dribbble.com/users/5959/screenshots/1836933/animation.gif"
                             title="Education"
+
                             description="Explore top educational institutions and resources."
                             className="educationIcon"
                         />
@@ -32,8 +33,9 @@ const Services = () => {
 
                     <div className="serviceContainer">
                         <Service
-                            icon="https://img.freepik.com/premium-vector/transportation-minimal-thin-line-icons-set_36298-294.jpg?w=1480"
+                            icon="https://cdn.dribbble.com/users/23118/screenshots/3557982/2.gif"
                             title="Transport"
+
                             description="Get information on transport options and schedules."
                             className="transportIcon"
                         />
@@ -42,8 +44,9 @@ const Services = () => {
                 <Link to="/home/banking" className='serviceLink'>
                     <div className="serviceContainer">
                         <Service
-                            icon="https://static.vecteezy.com/system/resources/previews/002/236/331/non_2x/banking-minimal-thin-line-icons-set-vector.jpg"
+                            icon="https://cdn.dribbble.com/users/1299339/screenshots/3076212/atm_d.gif"
                             title="Banking"
+
                             description="Access reliable banking facilities and services."
                             className="bankIcon"
                         />

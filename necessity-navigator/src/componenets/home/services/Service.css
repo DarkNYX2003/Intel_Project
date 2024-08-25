@@ -1,9 +1,11 @@
 .service {
     background-color: rgb(252, 248, 248);
     padding: 1em;
-    margin: 1em;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 3em;
+    padding-right: 3em;
+
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     flex-basis: 20%;
     text-align: center;
     position: relative;
